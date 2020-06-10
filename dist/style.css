@@ -1,0 +1,138 @@
+body{
+ background-color: rgb(52, 21, 20);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin: auto;
+}
+
+.title {
+ font-family: fantasy;
+  font-size: 2.1em;
+  color: rgb(131, 41, 8);
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+}
+
+#main-image {
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 2px rgb(255, 221, 169);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+}
+
+
+.text-block {
+  margin: 4em 12em;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+#navbar {
+  width:800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  height: 2.5em;
+  padding: 1% 1% 1% 1%;
+  margin: 2%;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(252, 222, 178)
+}
+
+
+#navbar-logo {
+  width: 45px;
+}
+
+#navbar-links {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 10% 0 0;
+  height: 100%;
+  align-items: center;
+}
+
+.navbar-link {
+  padding: 0 2.5%;
+  height: 100%;
+  line-height: 4em;
+  
+  background:rgb(255, 221, 169);
+  color: rgb(59,90,59);
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  background: rgb(252, 179, 131);
+  box-shadow: inset 0px 0px 2px rgb(0,0,0);
+  cursor: pointer;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 800;
+  color:  rgb(59,90,59);
+  font-size: 2em;
+}
+
+
+#menu-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+
+.menu-item {
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 2px rgb(255, 221, 169);
+  width: 300px;
+  height: 260px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom:20px;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.item-img {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.item-name {
+  position: relative;
+  top: 10px;
+  font-family: fantasy;
+  color: rgb(59,90,59);
+  background-color: black;
+}
